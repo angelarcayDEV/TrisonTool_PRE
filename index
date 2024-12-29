@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOFTWARE TRISON TOOL</title>
+    <!-- Incluir Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Incluir CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Selección de idioma -->
+    <div class="language-menu">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                🌍 Select Language
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageDropdown">
+                <a class="dropdown-item" href="?lang=en">
+                    <img src="flags/us.png" alt="US Flag" class="flag-icon"> English
+                </a>
+                <a class="dropdown-item" href="?lang=es">
+                    <img src="flags/spain.png" alt="Spain Flag" class="flag-icon"> Español
+                </a>
+                <a class="dropdown-item" href="?lang=fr">
+                    <img src="flags/france.png" alt="France Flag" class="flag-icon"> Français
+                </a>
+                <a class="dropdown-item" href="?lang=de">
+                    <img src="flags/germany.png" alt="Germany Flag" class="flag-icon"> Deutsch
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <h1 id="title" class="my-4">USB TRISON TOOL</h1>
+                <button id="formatButton" class="btn btn-primary btn-lg btn-block mb-3">
+                    <img src="pendrive.png" alt="Pendrive Icon" class="icon">
+                    MANAGE USB STICK
+                </button>
+                <button id="downloadMKD" class="btn btn-success btn-lg btn-block mb-3">
+                    <img src="led.png" alt="MKD Icon" class="icon">
+                    DOWNLOAD MKD 2.9.1
+                </button>
+                <button id="downloadInteractive" class="btn btn-success btn-lg btn-block mb-3">
+                    <img src="interactive.png" alt="Interactive Icon" class="icon">
+                    DOWNLOAD Interactive Screen 1.7
+                </button>
+                <button id="downloadLinux" class="btn btn-warning btn-lg btn-block">
+                    <img src="linux.png" alt="Linux Icon" class="icon">
+                    DOWNLOAD Linux IOP 1.1
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Incluir scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

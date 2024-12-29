@@ -1,0 +1,32 @@
+body {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+}
+
+h1 {
+    color: #cca50a; /* Título dorado */
+}
+
+.btn {
+    font-weight: bold; /* Botones en negrita */
+}
+
+.language-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.flag-icon {
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
